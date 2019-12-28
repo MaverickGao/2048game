@@ -1,0 +1,68 @@
+#header{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#header .title{
+    font:bold 50px Arial;
+    color:#776e65;
+    margin: 0 auto;
+}
+#header .author{
+    font-size: 15px;
+    margin: 1 auto;
+    padding-left: 18%;
+}
+#header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto;
+}
+#header .score-wrapper{
+    width: 100px;
+    background-color: #776e65;
+    padding: 6px;
+    border-radius: 6px;
+}
+#header .score-wrapper #text{
+    color: #fff;
+}
+#header .score-wrapper #score{
+    color: #fff;
+}
+#header .newgame-wrapper #newGame{
+    width: 100px;
+    display: block;
+    background-color: #776e65;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 6px;
+    color: #fff;
+}
+#header .newgame-wrapper #newGame:hover{
+    background-color: #bdbdbd;
+}
+#grid-container{
+    width: 360px;
+    height: 360px;
+    padding: 20px;
+    background-color: #bbada0;
+    margin: 10px auto;
+    border-radius: 10px;
+    position: relative;
+}
+#grid-container .grid-cell{
+    width: 75px;
+    height: 75px;
+    background-color: #ccc0b3;
+    border-radius: 6px;
+    position: absolute;
+}
+#grid-container .number-cell{
+    border-radius: 6px;
+    position: absolute;
+    font: bold 50px Arial;
+    text-align: center;
+    line-height: 75px;
+}
